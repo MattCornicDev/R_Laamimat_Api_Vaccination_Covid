@@ -16,7 +16,7 @@ var sexe="";
 var age="";
 
 
-//function getTemp(){
+
   
 
     
@@ -32,7 +32,6 @@ var age="";
             date = objCovid.records[0].fields.date;
             dep = objCovid.records[0].fields.dep_name;
             pop = objCovid.records[0].fields.couv_dose1;
-          //  dose1 = objCovid.records[2].couv_dose1;
             couv_comp = objCovid.records[0].fields.couv_complet;
 
             console.log(date);
@@ -42,5 +41,4 @@ var age="";
     
     }).catch(error => alert("Erreur : " + error ));
 
-//}
-
+    
